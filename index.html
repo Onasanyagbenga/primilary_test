@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6 form-group">
+
+            <label>Input Text</label>
+            <input type="number" id="input" placeholder="Enter Input Text Here" class="form-control"  />
+            <p class="text-danger error"  id="in_error" > Input Cannot be empty</p>
+            <p class="text-danger error"  > Only Integer is allowed</p>
+        </div>
+
+        <div class="col-md-6">
+            <h1>Output</h1>
+            <div class="response">
+                <p id="res_one"></p>
+                <p id="res_two"></p>
+                <p id="res_three"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="text-center">
+            <button  id="encrypt" class="btn btn-primary">Submit</button>
+
+        </div>
+
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="app.js" ></script>
+</body>
+</html>
